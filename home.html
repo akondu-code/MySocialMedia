@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <header class="p-1 ">
+        <div class="container-fluid px-3">
+          <div class="d-flex flex-wrap align-items-center justify-content-between fw-lighter">
+
+            <!-- Logo -->
+              <div> 
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" id="twitter-logo" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+            </a>
+              </div>
+
+              <!-- Links -->
+              <div id="links">
+            <ul class="nav col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-decoration-none me-3 text-reset" id= "navlinks">About</a></li>
+              <li><a href="#" class="nav-link px-2 text-decoration-none text-reset " id="navlinks">Help</a></li>
+            </ul>
+    </div>
+    
+            <!-- User greeting and profile image -->
+            <div class="d-flex flex-row justify-content-center align-items-center nav">
+               <div id="greeting"></div>
+                 <img src="img/user-img.jpg" alt="" width="35" height="35" class="rounded-circle ms-3">
+            </div>
+
+          </div>
+        </div>
+      </header>
+
+      <!-- Main body -->
+<div class="container-fluid px-3">
+    <div class="row">
+
+<!-- Side Bar -->
+<a href="home.html" class="text-decoration-none text-reset">
+    <div class="col-2 d-flex flex-column pt-5" id= "side-bar">
+    <div class="pt-5 pb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill me-3" id= "side-icon"viewBox="0 0 16 16" >
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+      </svg>
+      Home
+</div>
+</a>
+
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill me-3"id= "side-icon" viewBox="0 0 16 16">
+        <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
+      </svg>
+      Explore
+</div>
+
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill me-3" id="side-icon" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+      </svg>
+      Notifications
+</div>
+
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill me-3" id="side-icon" viewBox="0 0 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+      </svg>
+      Messages
+</div>
+
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+      </svg>
+      Bookmarks
+</div>
+
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      Lists
+</div>
+
+<a href="profile.html" class="text-decoration-none text-reset">
+<div class="mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg>
+      Profile
+</div>
+</a>
+
+<div class="mb-5">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+      </svg>
+      More
+</div>
+
+<a class="btn rounded-pill col-12 justify-content-center mt-5 mx-3 text-white" href="new-tweet.html" role="button" id="tweet-btn">Tweet</a>
+</div>
+
+<!-- Tweets bar -->
+<div class="col-10">
+   <div class="container px-5">
+    <div class="py-4 fs-3 fw-bold" id="tweet">
+        Tweets
+    </div>
+
+<!-- Card -->
+    <div class="card col-12 mb-3">
+<div class="card-body d-flex flex-column">
+<div class="d-flex flex-row">
+<div><img src="img/user-img.jpg" alt="" width="40" height="40" class="rounded-circle"></div>
+<div class="fw-bold ps-2" id="display-name">
+    Ayorinde Nnamdi
+</div>
+<div class="ps-2" id="User-name">@ayo_nnam</div>
+</div>
+
+<div class="ms-5 fw-lighter" id="posted-tweet">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Orci eu lobortis elementum nibh tellus molestie nunc.
+</div>
+</div>
+    </div>
+
+    <!-- Card -->
+    <div class="card col-12">
+        <div class="card-body d-flex flex-column">
+        <div class="d-flex flex-row">
+        <div><img src="img/user-img-2.jpg" alt="" width="40" height="40" class="rounded-circle"></div>
+        <div class="fw-bold ps-2" id="display-name">
+            Priscille Hamza
+        </div>
+        <div class="ps-2" id="User-name">@sunshine__</div>
+        </div>
+        <div class="ms-5 fw-lighter" id="posted-tweet">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna eget est lorem ipsum dolor sit. A pellentesque sit amet porttitor eget dolor morbi. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Orci nulla pellentesque dignissim enim sit. Suscipit tellus mauris a diam maecenas sed. Nibh sit amet commodo nulla facilisi nullam. </div>
+        </div>
+            </div>
+
+            
+    <!-- Card -->
+    <div class="card col-12">
+        <div class="card-body d-flex flex-column">
+        <div class="d-flex flex-row">
+        <div><img src="" alt="" width="40" height="40" class="rounded-circle"></div>
+        <div class="fw-bold ps-2" id="display-name">
+            
+        </div>
+        <div class="ps-2" id="Username"></div>
+        </div>
+        
+        <div class="ms-5 fw-lighter" id="posted-tweet">
+        </div></div>
+</div>
+
+</div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

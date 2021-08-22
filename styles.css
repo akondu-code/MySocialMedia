@@ -1,0 +1,104 @@
+@font-face{
+    font-family: SFpro regular;
+    src: url(fonts/SF-Pro-Display-Regular.otf);
+}
+
+body {
+    font-family: SFpro regular;
+    background: white !important;
+}
+#twitter-logo{
+    color: #2ba7f3 !important;
+}
+
+input {
+    /* background: rgb(233, 225, 225) !important; */
+    background: rgb(218, 204, 204) !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+header {
+    color:  #262d37 !important;
+}
+
+#navlinks{
+    color: #262d37 !important; 
+}
+
+#side-icon {
+    color: rgb(126, 121, 121) !important;
+}
+
+#side-bar {
+    color: #262d37 !important;
+}
+button{
+    background: #2ba7f3 !important;
+}
+#tweet {
+    color: #2ba7f3 !important;
+}
+#tweet-btn {
+    background-color: #2ba7f3 !important;
+}
+.card {
+    /* background: #262d37; */
+    background: white;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgb(218, 204, 204);
+}
+#posted-tweet {
+    color: #262d37;
+}
+#User-name {
+    color: rgb(126, 121, 121);
+}
+
+#input-userName {
+    background: transparent !important;
+    border: transparent;
+    color: #262d37 !important;
+}
+
+#input-displayName {
+    background: transparent !important;
+    border: transparent;
+    color: #262d37 !important;
+}
+ textarea::placeholder {
+     color: rgb(126, 121, 121) !important;
+ }
+
+ /* #login {
+     border: 1px solid #262d37 !important;
+ } */
+span {
+    color: #2ba7f3 !important;
+}
+img{
+    object-fit: cover;
+}
+
+#display-name {
+    color: #262d37;
+}
+#send-tweet {
+    background-color: #2ba7f3 !important;
+}
+
+#welcome{
+    color: #262d37;
+}
+
+#instruction {
+    color: rgb(126, 121, 121);
+}

@@ -12,8 +12,7 @@ body {
 }
 
 input {
-    /* background: rgb(233, 225, 225) !important; */
-    background: rgb(218, 204, 204) !important;
+    background: white !important;
 }
 
 .form-control:focus {
@@ -39,9 +38,14 @@ header {
 #side-bar {
     color: #262d37 !important;
 }
-button{
+login-btn{
     background: #2ba7f3 !important;
 }
+
+signup-btn{
+    background: #2ba7f3 !important;
+}
+
 #tweet {
     color: #2ba7f3 !important;
 }
@@ -101,4 +105,72 @@ img{
 
 #instruction {
     color: rgb(126, 121, 121);
+}
+
+#login-blue {
+    background: #2ba7f3 !important;
+}
+
+#login-btn {
+    background: #2ba7f3 !important;
+}
+
+input::placeholder {
+    color: rgb(223, 210, 210);
+    font-size: 14px;
+}
+#signup-logo {
+    color: white !important;
+}
+
+#signup-btn {
+    background: #2ba7f3 !important;
+}
+
+#header-img {
+    background-color: #2ba7f3 !important;
+}
+#profile-img {
+    background: black !important;
+}
+
+#ellipse {
+    color: #2ba7f3 !important;
+}
+
+#envelope {
+    color: #2ba7f3 !important;
+}
+
+#userName {
+    color: grey !important;
+}
+
+#bio {
+    color: rgb(48, 47, 47)!important;
+}
+
+#location-div {
+    color: grey !important;
+}
+.tweet {
+    color: #2ba7f3 !important;
+}
+#birthday-div {
+    color: grey !important;
+}
+
+#suggestion {
+    background: #badcf1 !important;
+}
+#list-suggest {
+    color: grey !important;
+}
+
+#flw-btn {
+    color: #2ba7f3 !important;
+    border: 1px solid #2ba7f3 !important;
+}
+#next-btn {
+    background: #2ba7f3 !important;
 }

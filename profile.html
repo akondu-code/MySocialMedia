@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" /> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossOrigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <header class="p-1 ">
+            <div class="container-fluid px-3">
+              <div class="d-flex flex-wrap align-items-center justify-content-between fw-lighter">
+    
+                <!-- Logo -->
+                  <div> 
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" id="twitter-logo" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </a>
+                  </div>
+    
+                  <!-- Links -->
+                  <div id="links">
+                <ul class="nav col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a href="#" class="nav-link px-2 text-decoration-none me-3 text-reset" id="navlinks">About</a></li>
+                  <li><a href="#" class="nav-link px-2 text-decoration-none text-reset" id="navliinks">Help</a></li>
+                </ul>
+        </div>
+
+        
+            <!-- User greeting and profile image -->
+            <div class="d-flex flex-row justify-content-center align-items-center nav">
+                <div id="greeting"></div>
+                  <img src="img/user-img.jpg" alt="" width="35" height="35" class="rounded-circle ms-3">
+             </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="row">
+              <!--Side bar-->
+
+    <div class="col-2 d-flex flex-column" id= "side-bar">
+
+        <a href="home.html" class="text-decoration-none text-reset"></a>
+    <div class="pt-2 pb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill me-3" id= "side-icon"viewBox="0 0 16 16" >
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+      </svg>
+      Home
+</div>
+</a>
+
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill me-3"id= "side-icon" viewBox="0 0 16 16">
+        <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
+      </svg>
+      Explore
+</div>
+
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill me-3" id="side-icon" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+      </svg>
+      Notifications
+</div>
+
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill me-3" id="side-icon" viewBox="0 0 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+      </svg>
+      Messages
+</div>
+
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+      </svg>
+      Bookmarks
+</div>
+
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      Lists
+</div>
+
+<a href="profile.html" class="text-decoration-none text-reset">
+<div class="mb-3 fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg>
+      Profile
+</div>
+</a>
+
+<div class="fw-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots me-3" id= "side-icon" viewBox="0 0 16 16">
+        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+      </svg>
+      More
+</div>
+<button class="btn rounded-pill col-9 justify-content-center mt-3 text-white" type="button" id="tweet-btn">Tweet</button>
+</div>
+
+<div class="col-7">
+  <!--Header and display picture-->
+    <div class="w-100 h-25 position-relative" id="header-img">
+<div class="position-absolute top-100 start-0 translate-middle-y rounded-circle ms-2" id="profile-img" style="height: 10rem; width: 10rem;"> </div>
+    </div>
+    <div class=" mt-2 row justify-content-end align-items-end">
+<button type="button" class="btn btn-outline-primary rounded-circle d-flex justify-content-center align-items-center me-2" style="height: 3rem; width: 3rem;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-three-dots fw-bolder" id="ellipse" viewBox="0 0 16 16">
+    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+  </svg>
+</button>
+<button type="button" class="btn btn-outline-primary rounded-circle d-flex justify-content-center align-items-center me-2" style="height: 3rem; width: 3rem;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope fw-bolder" id="envelope" viewBox="0 0 16 16">
+    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+  </svg>
+</button>
+</div>
+
+<div class="container mt-5">
+  <!--Display name, username, bio and details-->
+<div id="displayName" class="text-black fs-5 fw-bolder">
+Chief Madam
+</div>
+<div id="userName" class="fw-light">
+@ tiolubaby
+</div>
+</div>
+
+<div class="container fw-light mt-2 " id="bio">
+Your bio goes here... It's where you lie to the world and yourself about all the things you're not.
+</div>
+
+<div class="container row w-75 mt-2">
+  <div class="col" id="link-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+      <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+      <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+    </svg>
+<a href="https://github.com/akondu-code" class="text-decoration-none">github.com</a>
+  </div>
+  <div class="col" id="location-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    </svg>
+    Abuja, Nigeria
+  </div>
+  <div class="col" id="birthday-div">
+<i class="fa fa-birthday-cake"></i>
+17 April
+  </div>
+</div>
+
+<div class="container mt-5">
+<!--Tweets bar-->
+ <div class="tweet">Tweets</div>
+<div class="card col-12 mb-3">
+  <div class="card-body d-flex flex-column border-bottom">
+  <div class="d-flex flex-row">
+  <div><img src="img/user-img-2.jpg" alt="" width="40" height="40" class="rounded-circle"></div>
+  <div class="fw-bold ps-2" id="display-name">
+      Chief Madam
+  </div>
+  <div class="ps-2" id="User-name">@ tiolubaby</div>
+  </div>
+  
+  <div class="ms-5 fw-lighter" id="posted-tweet">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Orci eu lobortis elementum nibh tellus molestie nunc.
+  </div>
+  </div>
+      </div>
+
+      <div class="card col-12 mb-3">
+        <div class="card-body d-flex flex-column border-bottom">
+        <div class="d-flex flex-row">
+        <div><img src="img/user-img-2.jpg" alt="" width="40" height="40" class="rounded-circle"></div>
+        <div class="fw-bold ps-2" id="display-name">
+            Chief Madam
+        </div>
+        <div class="ps-2" id="User-name">@ tiolubaby</div>
+        </div>
+        
+        <div class="ms-5 fw-lighter" id="posted-tweet">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Orci eu lobortis elementum nibh tellus molestie nunc.
+        </div>
+        </div>
+            </div>
+      
+            
+      <div class="card col-12 mb-3">
+        <div class="card-body d-flex flex-column border-bottom">
+        <div class="d-flex flex-row">
+        <div><img src="img/user-img-2.jpg" alt="" width="40" height="40" class="rounded-circle"></div>
+        <div class="fw-bold ps-2" id="display-name">
+            Chief Madam
+        </div>
+        <div class="ps-2" id="User-name">@ tiolubaby</div>
+        </div>
+        
+        <div class="ms-5 fw-lighter" id="posted-tweet">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Orci eu lobortis elementum nibh tellus molestie nunc.
+        </div>
+        </div>
+            </div>
+
+</div>
+
+</div>
+
+<div class="col-3">
+  <div class="container d-flex flex-column justify-content-center align-items-center">
+<input id="search" class="rounded-pill border border-light" placeholder="Search tritter">
+
+<div class="container mt-5">
+  <div class="fw-bold mb-3">You might like</div>
+  <div class="card" style="width: 18rem;" id="suggestion">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" id="list-suggest">@ happy_feet <span class="ms-3"><button class="btn rounded-pill bg-white" id="flw-btn">Follow</button></span></li>
+      <li class="list-group-item" id="list-suggest">@ kirikiris <span class="ms-5"><button class="btn rounded-pill bg-white" id="flw-btn">Follow</button></span></li>
+      <li class="list-group-item" id="list-suggest">@ miss_goat <span class="ms-4"><button class="btn rounded-pill bg-white" id="flw-btn">Follow</button></span></li>
+    </ul>
+  </div>
+
+</div>
+</div>
+</div>
+          </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
